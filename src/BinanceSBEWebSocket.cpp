@@ -116,7 +116,7 @@ void WebSocket::print_binary_hex(const unsigned char* data, size_t len) {
 
 void WebSocket::read_messages() {
     try {
-        for(int i = 0; i<100 ; ++i) {
+        while(true) {
             beast::flat_buffer buffer;
             ws_.read(buffer);
 

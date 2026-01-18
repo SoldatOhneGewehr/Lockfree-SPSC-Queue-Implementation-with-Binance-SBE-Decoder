@@ -6,7 +6,7 @@
 int main() {
     try {
         // API Key from Binance (Ed25519 key)
-        std::string api_key = "gnsAMZcoqIhGMB1VaczpqAzuL6LSbQrf33TehWnNFZLo29rLrNuJ8C1t7147q5dc";
+        std::string api_key = "YOUR API KEY HERE";
         
         // Binance SBE WebSocket endpoint
         std::string host = "stream-sbe.binance.com";
